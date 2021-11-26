@@ -18,7 +18,8 @@ export default class Action extends React.Component {
             		<Icon {...this.props} icon={_.get(action, 'icon', null)} />
             		<span className={classNames({'order-first': action_icon_pos === 'right', 'sr-only': action_icon_pos === 'center'})}>asdasd{_.get(action, 'label', null)}</span>
             	</React.Fragment>) : 
-            		_.get(action, 'label', null)
+                    _.get(action, 'label', null)
+                    asdasd
             	}
             </Link>
         );
